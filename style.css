@@ -1,0 +1,35 @@
+body {
+
+}
+section {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: blanchedalmond;
+    width: 75vw;
+    aspect-ratio: 1 / 1;
+    box-shadow: indigo;
+}
+
+.item1 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: chartreuse;
+}
+
+.item2 {
+    grid-area: 3 / 3 / 2 / 2;
+    background-color: rgb(253, 78, 239);
+}
+
+.item3 {
+    grid-area: 1 / 3 / 1 / 1;
+    background-color: darkorange;
+}
+
+.item4 {
+    grid-area: 1 / 1 / 1 / 1;
+    background-color: red;
+}
